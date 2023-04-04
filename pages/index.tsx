@@ -87,7 +87,7 @@ export default function Home() {
             {todos.map((todo, key) => {
               return (
                 <motion.div
-                  whileHover={{ scale: [1, 1.05, 1], duration: 0.1 }}
+                  whileHover={{ scale: [1, 1.05, 1] }}
                   //whileTap={{ scale: 0.8 }}
                   className="flex justify-between my-1"
                   key={key}
